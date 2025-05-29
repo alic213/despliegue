@@ -1,0 +1,10 @@
+
+services:
+  - type: web
+    name: DSW21B-github-actions
+    env: docker
+    plan: free
+    repo: "name_repository"
+    region: oregon
+    buildCommand: "echo 'Dockerfile already handles build'"
+    startCommand: "echo 'Dockerfile already handles start'"
