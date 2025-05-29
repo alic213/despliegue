@@ -4,7 +4,7 @@ services:
     name: DSW21B-github-actions
     env: docker
     plan: free
-    repo: "name_repository"
+    repo: "https://github.com/alic213/despliegue.git"
     region: oregon
     buildCommand: "echo 'Dockerfile already handles build'"
     startCommand: "echo 'Dockerfile already handles start'"
